@@ -17,3 +17,20 @@ p {
     font-family: Arial;
     margin-top: -20px;
 }
+.login {
+    text-align: center;
+    margin-top: 65px;
+    font-family: Arial;
+}
+h2 {
+    color: #000000;
+    font-family: arial;
+}
+button {
+    color: #fffefe;
+    background-color: #ff0000;
+    border: none;
+    padding: 10px 20px;
+    font-family: Arial;
+    cursor: pointer;
+}
