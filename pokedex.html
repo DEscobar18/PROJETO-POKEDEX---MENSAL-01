@@ -5,21 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./js/script.js"></script>
 </head>
 <body>
     <img src="./pokedex.png" alt="Pokémon">
     <h1>Pokédex Pro</h1>
     <p> Sua Jornada Pokémon começa aqui!</p>
     <div class="login">   
-        <h2>LOGIN / REGISTRO</h2>
         <form id="loginPokedex">
 
             <label for="login">E-mail:</label>
 
             <input type="email"
              id="login" 
-             placeholder="Digite seu e-mail:"
+             placeholder="treinador@pokedex.pro"
              required 
              >
 
@@ -27,12 +25,18 @@
 
             <input type="password"
              id="password"
-             placeholder="Digite sua senha:"
+             placeholder="Sua senha secreta"
              required 
              >
-             
-            <button type="submit">Acessar</button>
+             <a class="forgot-password" href="registro.html">Esqueceu senha?</a>
         </form>
     </div>
+    <script src="./js/script.js"></script>
 </body>
+
+<footer>
+    <button type="submit">Entrar</button>
+    <p class="creat-acount">Ainda nao tem uma conta?
+            <a class="creat-account" href="registro.html">Criar conta</a></p>
+</footer>
 </html>

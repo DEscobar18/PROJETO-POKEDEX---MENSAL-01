@@ -17,20 +17,60 @@ p {
     font-family: Arial;
     margin-top: -20px;
 }
+.login label {
+    margin-left: -172px;
+}
 .login {
     text-align: center;
-    margin-top: 65px;
+    margin-top: 120px;
     font-family: Arial;
+    font-weight: bold;
+}
+form input {
+    width: 200px;
+    padding: 10px;
 }
 h2 {
     color: #000000;
-    font-family: arial;
+    font-family: 50pt Arial;
 }
 button {
     color: #fffefe;
-    background-color: #ff0000;
+    background-color: #a81818;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 100px;
     font-family: Arial;
     cursor: pointer;
+    border-radius: 8px;
+}
+.creat-acount {
+    color: #949393;
+    font-family: Arial;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.login input,
+.login button {
+    display: block;
+    margin: 10px auto;
+}
+footer {
+    text-align: center;
+    margin-top: 180px;
+    font-family: Arial;
+    color: #949393;
+    font-family: 15px;
+}
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #a81818;
+    text-decoration: none; 
+    font-size: 14px;
+    margin-left: 105px; 
+}
+.creat-account {
+    color: #a81818;
+    text-decoration: none; 
+    font-size: 14px;
 }
